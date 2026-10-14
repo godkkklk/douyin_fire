@@ -1,0 +1,13 @@
+{
+  "friends": ["好友的完整昵称或备注"],
+  "messages": ["续火花 🔥"],
+  "interval_seconds": 10,
+  "headless": false,
+  "selectors": {
+    "search": "input[placeholder*='搜索'], [role='textbox'][placeholder*='搜索'], input[aria-label*='搜索'], [role='textbox'][aria-label*='搜索']",
+    "result": "[class*='SearchPanelitembox'], [class*='SearchPanelitem-box'], [data-e2e='conversation-item'], [class*='conversationConversationItem']",
+    "header": "[class~='RightPanelHeadertitle'], [class~='RightPanelHeaderTitle'], [class~='RightPanelHeader_title'], [class~='RightPanelHeader-title'], [class~='ChatHeaderTitle'], [class~='chatHeadertitle']",
+    "editor": "[contenteditable='true']",
+    "send": "button:has-text('发送'), [role='button']:has-text('发送'), [class*='messageMsgInputpublishBtn'], .e2e-send-msg-bt"
+  }
+}

@@ -1,0 +1,4 @@
+playwright>=1.54,<2
+tzdata>=2025.2
+Pillow>=10,<13
+pystray>=0.19.5,<1
